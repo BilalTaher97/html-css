@@ -1,0 +1,45 @@
+body {
+
+    background-color: #fff8ef;
+}
+
+div {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 645px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.C2 {
+
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.S1 {
+
+    font-weight: bold;
+    color: black;
+    background-color: rgba(211, 122, 33, 0.747);
+    padding: 1px;
+}
+
+.S2 {
+
+    font-weight: bold;
+    color: rgb(135 12 130);
+    background-color: rgba(241, 230, 25, 0.747);
+    padding: 1px;
+}
+
+.d3 {
+
+    color: rgb(135 12 130);
+}
+
+.P2 {
+
+    border: 2px dashed red;
+}
