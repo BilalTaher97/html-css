@@ -1,0 +1,14 @@
+.Main-Div {
+
+    width: 70%;
+    position: relative;
+}
+
+img {
+
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 250px;
+    height: 550px;
+}

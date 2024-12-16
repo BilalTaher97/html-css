@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    border: 3px dotted black;
+    width: 400px;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content2 {
+
+    position: relative;
+    display: flex;
+    border: 3px dotted black;
+    width: 296px;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+p {
+
+    width: 97px;
+    background-color: red;
+}
+
+
+
+.P2 {
+
+    background-color: green;
+}
+
+.P3 {
+
+    background-color: green;
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+
+.P4 {
+
+    background-color: green;
+    position: absolute;
+    top: 377px;
+    left: 11px;
+    height: 70px;
+}
