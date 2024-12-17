@@ -1,0 +1,181 @@
+body {
+
+    font-family: "Playfair Display", serif;
+}
+
+.Main-Div {
+
+    background-image: url(./Images/Modern-Office-Interior-with-Open-Floor-Plan-scaled.jpeg);
+    height: 400px;
+    position: relative;
+}
+
+
+.Container-1 {
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 106px;
+
+}
+
+h1,
+p {
+
+    position: relative;
+    z-index: 1;
+}
+
+h3 {
+    position: absolute;
+    padding: 12px;
+    width: fit-content;
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    left: 45%;
+    cursor: pointer;
+}
+
+h3:hover {
+
+    background-color: #258fd4;
+
+}
+
+
+.Container-1::before {
+    content: '';
+    background-color: rgb(7 7 7 / 20%);
+    width: 100%;
+    height: 399px;
+    position: absolute;
+    top: -106px;
+    left: 0px;
+
+}
+
+.Container-2 {
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.Container-3 {
+    display: flex;
+    background-color: rgb(63, 60, 60);
+    justify-content: space-evenly;
+}
+
+.Card-1,
+.Card-2,
+.Card-3 {
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.Card-1:hover {
+
+    transform: scaleY(1.1);
+}
+
+.Card-2:hover {
+
+    transform: skewY(10deg);
+}
+
+.Card-3:hover {
+
+    transform: rotateX(40deg);
+}
+
+h4,
+p {
+
+    text-align: center;
+}
+
+.Foot {
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Foot-end1 {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #258fd4;
+    color: white;
+    width: 50%;
+    height: 300px;
+    transition: 1s;
+}
+
+.Foot-end1:hover {
+
+    transform: rotateY(50deg);
+}
+
+.Foot-end2 {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    width: 50%;
+    transition: 1s;
+}
+
+.Foot-end2:hover {
+
+    transform: rotateX(50deg);
+}
+
+.Para {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.Foot-end3 {
+
+
+    text-align: center;
+    background-color: black;
+    position: relative;
+    height: 150px;
+}
+
+.end-p {
+    padding: 50px;
+    color: white;
+    width: 200px;
+    position: absolute;
+    right: 50%;
+    margin: auto -155px;
+}
+
+span {
+
+    color: #258fd4;
+
+}
+
+.Main-Text {
+
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
